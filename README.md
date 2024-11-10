@@ -7,7 +7,7 @@ Welcome to the **Django Project**. This project leverages Docker for containeriz
 ## 📝 **Environment Variables**
 
 Before running the project, you need to create a `.env` file in the root directory of your project with the following credentials:
-
+```
 DB_NAME=your_database_name
 DB_USER=your_database_user
 DB_PASSWORD=your_database_password
@@ -15,7 +15,7 @@ DB_HOST=your_database_host
 DB_PORT=5432  # Default PostgreSQL port
 SECRET_KEY=your_django_secret_key
 DJANGO_DEBUG=True  # Set to False in production
-
+```
 *Make sure the .env file is not shared publicly, and it is added to .gitignore to keep sensitive data secure.*
 
 ---
